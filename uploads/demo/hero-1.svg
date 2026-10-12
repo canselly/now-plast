@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07101f"/><stop offset=".55" stop-color="#0d2556"/><stop offset="1" stop-color="#1446c8"/></linearGradient>
+    <pattern id="g" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern>
+    <radialGradient id="glow" cx=".7" cy=".55" r=".45"><stop offset="0" stop-color="#3d7bff" stop-opacity=".55"/><stop offset="1" stop-color="#3d7bff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#cfdcf0"/><stop offset=".42" stop-color="#ffffff"/><stop offset="1" stop-color="#b3c4de"/></linearGradient>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#0d3fc4"/><stop offset=".45" stop-color="#3d7bff"/><stop offset="1" stop-color="#0b37ad"/></linearGradient>
+    <linearGradient id="o" x1="0" x2="1"><stop offset="0" stop-color="#ff9f1c"/><stop offset=".5" stop-color="#ffc24b"/><stop offset="1" stop-color="#f08a00"/></linearGradient>
+    <linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#11a37f"/><stop offset=".5" stop-color="#2fd0a3"/><stop offset="1" stop-color="#0c8a6a"/></linearGradient>
+    <g id="tub">
+      <path d="M92 126 L118 316 A82 16 0 0 0 282 316 L308 126 Z" fill="url(#b)"/>
+      <path d="M86 102 L86 120 A114 21 0 0 0 314 120 L314 102 Z" fill="url(#l)"/>
+      <ellipse cx="200" cy="102" rx="114" ry="21" fill="#4f86ff"/>
+      <ellipse cx="200" cy="100" rx="88" ry="14" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <circle cx="1180" cy="470" r="330" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
+  <circle cx="1180" cy="470" r="250" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="44"/>
+  <ellipse cx="1180" cy="760" rx="360" ry="30" fill="#000" opacity=".3"/>
+  <g transform="translate(860 330) scale(1.15)">
+    <use href="#tub"/>
+    <path d="M104 168 L115 266 A86 16 0 0 0 285 266 L296 168 A96 17 0 0 1 104 168 Z" fill="url(#gr)"/>
+  </g>
+  <g transform="translate(1080 210) scale(1.45)">
+    <use href="#tub"/>
+    <path d="M104 168 L115 266 A86 16 0 0 0 285 266 L296 168 A96 17 0 0 1 104 168 Z" fill="url(#o)"/>
+    <circle cx="200" cy="220" r="24" fill="#fff" opacity=".9"/>
+  </g>
+  <g transform="translate(1290 430) scale(.85)">
+    <use href="#tub"/>
+    <path d="M104 168 L115 266 A86 16 0 0 0 285 266 L296 168 A96 17 0 0 1 104 168 Z" fill="#e2445c"/>
+  </g>
+</svg>

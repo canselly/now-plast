@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#f6c1d2"/><stop offset=".45" stop-color="#ffe7ef"/><stop offset="1" stop-color="#e79ab4"/></linearGradient>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#c9d2de"/><stop offset=".5" stop-color="#f4f7fb"/><stop offset="1" stop-color="#b9c4d3"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="334" rx="70" ry="10" fill="#0b1626" opacity=".12"/>
+  <path d="M132 112 L156 318 A44 9 0 0 0 244 318 L268 112 Z" fill="url(#c)" stroke="#e48aa8" stroke-width="1.2"/>
+  <path d="M138 168 C170 150 200 190 230 168 S262 156 264 160 L256 232 C230 214 200 248 170 230 S146 230 146 236 Z" fill="#fff" opacity=".55"/>
+  <circle cx="200" cy="270" r="20" fill="#d6336c" opacity=".85"/>
+  <circle cx="192" cy="264" r="5" fill="#fff" opacity=".8"/>
+  <ellipse cx="200" cy="112" rx="70" ry="13" fill="#e48aa8"/>
+  <ellipse cx="200" cy="108" rx="70" ry="13" fill="url(#f)"/>
+  <path d="M262 106 q22 -4 28 6 q-6 8 -26 6 Z" fill="url(#f)"/>
+</svg>

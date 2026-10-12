@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1222"/><stop offset=".6" stop-color="#241b4d"/><stop offset="1" stop-color="#6b2fd0"/></linearGradient>
+    <linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#f6c1d2"/><stop offset=".45" stop-color="#ffe7ef"/><stop offset="1" stop-color="#e79ab4"/></linearGradient>
+    <linearGradient id="c2" x1="0" x2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#fff1cf"/><stop offset="1" stop-color="#f2b33d"/></linearGradient>
+    <linearGradient id="c3" x1="0" x2="1"><stop offset="0" stop-color="#a6e3ff"/><stop offset=".45" stop-color="#e6f7ff"/><stop offset="1" stop-color="#6cc6f0"/></linearGradient>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#c9d2de"/><stop offset=".5" stop-color="#f4f7fb"/><stop offset="1" stop-color="#b9c4d3"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g fill="#fff" fill-opacity=".06">
+    <circle cx="1350" cy="160" r="90"/><circle cx="900" cy="760" r="140"/><circle cx="1500" cy="700" r="60"/>
+  </g>
+  <ellipse cx="1180" cy="740" rx="380" ry="26" fill="#000" opacity=".3"/>
+  <g transform="translate(880 300) scale(1.25)">
+    <path d="M132 112 L156 318 A44 9 0 0 0 244 318 L268 112 Z" fill="url(#c3)"/>
+    <ellipse cx="200" cy="108" rx="70" ry="13" fill="url(#f)"/>
+    <circle cx="200" cy="230" r="26" fill="#1d8fd1" opacity=".85"/>
+  </g>
+  <g transform="translate(1040 180) scale(1.6)">
+    <path d="M132 112 L156 318 A44 9 0 0 0 244 318 L268 112 Z" fill="url(#c)"/>
+    <path d="M138 168 C170 150 200 190 230 168 S262 156 264 160 L256 232 C230 214 200 248 170 230 S146 230 146 236 Z" fill="#fff" opacity=".55"/>
+    <ellipse cx="200" cy="108" rx="70" ry="13" fill="url(#f)"/>
+    <circle cx="200" cy="270" r="20" fill="#d6336c" opacity=".85"/>
+  </g>
+  <g transform="translate(1250 340) scale(1.1)">
+    <path d="M132 112 L156 318 A44 9 0 0 0 244 318 L268 112 Z" fill="url(#c2)"/>
+    <ellipse cx="200" cy="108" rx="70" ry="13" fill="url(#f)"/>
+    <path d="M150 200 h100" stroke="#c98200" stroke-width="10" stroke-linecap="round" opacity=".6"/>
+  </g>
+</svg>

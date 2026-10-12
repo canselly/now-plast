@@ -1,0 +1,20 @@
+# Yerel ayarlar (veritabanı şifreleri vb.) — config.local.example.php'den kopyalanır
+config.local.php
+
+# Veritabanı ve çalışma zamanı dosyaları
+data/*
+!data/.htaccess
+
+# Admin panelinden yüklenen dosyalar (demo ve marka görselleri hariç)
+uploads/*
+!uploads/.htaccess
+!uploads/demo/
+!uploads/brand/
+
+# Editör / araç dosyaları
+.claude/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
